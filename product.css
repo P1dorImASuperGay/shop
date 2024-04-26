@@ -1,0 +1,54 @@
+body{
+    background-color: chocolate;
+}
+.product-item{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow:  42px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 15px;
+    position: absolute;
+}
+.product-item:hover{
+    background-color: rgb(187, 185, 185);
+}
+.product-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+.like-button{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+.like-button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.product-title{
+   text-align: center;
+   margin: 0;
+   padding-top: 5px;
+}
+.star-container{
+    display: flex;
+    position: absolute;
+    left: 60px;
+    justify-content: center;
+}
+.star-container:hover{
+    background-color: rgb(255, 251, 0);
+}
+.prise{
+    background-color: brown;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+}
